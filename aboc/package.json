@@ -1,0 +1,32 @@
+{
+    "name": "aboc",
+    "displayName": "ABOC",
+    "description": "ABOC color theme",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "publisher": "aboc",
+    "author": {
+        "name" : "Abdulrahman Almonajed"
+    },
+    "license": "MIT",
+    "keywords": [
+        "dark theme",
+        "aboc",
+        "vscode dark theme"
+    ],
+    "icon": "icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ABOC-dark-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ABOC-dark-theme-color-theme.json"
+            }
+        ]
+    }
+}
